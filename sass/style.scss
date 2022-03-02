@@ -7,8 +7,7 @@
 }
 
 :active,
-:hover,
-:focus {
+:hover {
     outline: 0;
     outline-offset: 0;
 }
@@ -95,6 +94,7 @@ a {
     border: none;
     outline: none;
     transition: .5s all;
+    cursor: pointer;
 
     &:hover {
         filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
@@ -622,7 +622,9 @@ a {
 
 .contacts-form__input:active {
     outline: none;
-    border: none;
+}
+.contacts-form__input:focus {
+    outline: none;
 }
 
 .contacts-form textarea::placeholder {
@@ -631,12 +633,10 @@ a {
 
 .contacts-form textarea:active {
     outline: none;
-    border: none;
 }
 
 .contacts-form__select:active {
     outline: none;
-    border: none;
 }
 
 .form-title {
@@ -923,6 +923,7 @@ a {
     &__logo {
         width: 174px;
         margin-bottom: 24px;
+        cursor: pointer;
     }
 
     &__text {
