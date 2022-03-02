@@ -634,8 +634,13 @@ a {
 .contacts-form textarea:active {
     outline: none;
 }
-
+.contacts-form textarea:focus {
+    outline: none;
+}
 .contacts-form__select:active {
+    outline: none;
+}
+.contacts-form__select:focus {
     outline: none;
 }
 
