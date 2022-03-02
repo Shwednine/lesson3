@@ -1,12 +1,6 @@
 'use strict';
 window.addEventListener('DOMContentLoaded', () => {
 
-const impactHeight = document.getElementById('impact_height').clientHeight;
-const impact = document.getElementById('impact_height');
-const bottom = 0;
-const bottomStyle = (bottom - (impactHeight/2)) + 'px';
-impact.style.bottom = bottomStyle;
-
 //hamburger
 const hamburger = document.querySelector('.hamburger'),
     mobile = document.querySelector('.mobile'),

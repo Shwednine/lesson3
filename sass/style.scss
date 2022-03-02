@@ -830,7 +830,7 @@ a {
 }
 
 .impact {
-    padding: 112px 0 212px 0;
+    padding: 112px 0 0 0;
     background: #29C3BE;
     position: relative;
     background-image: url('../img/Blob3.svg');
@@ -895,8 +895,8 @@ a {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        position: absolute;
         width: 1020px;
+        transform: translateY(50%);
     }
 
     &__h3 {
@@ -1060,9 +1060,6 @@ a {
 }
 
 
-@media (min-width: 1200px) {}
-
-
 @media (min-width: 992px) and (max-width: 1199px) {
     .container {
         width: 950px;
@@ -1090,8 +1087,6 @@ a {
     }
 
     .impact__item {
-        left: 50%;
-        transform: translateX(-50%);
         width: 950px;
     }
 }
@@ -1155,8 +1150,6 @@ a {
     }
 
     .impact__item {
-        left: 50%;
-        transform: translateX(-50%);
         width: 740px;
     }
 
@@ -1208,9 +1201,7 @@ a {
         width: 48%;
     }
 
-    .impact__item {
-        padding: 20px 30px;
-    }
+
 
     .impact__img {
         width: 400px;
@@ -1372,10 +1363,10 @@ a {
     }
 
     .impact__item {
-        left: 50%;
-        transform: translateX(-50%);
         width: 100%;
+        padding: 10px 20px;
     }
+
 
     .form__row {
         flex-wrap: wrap;
